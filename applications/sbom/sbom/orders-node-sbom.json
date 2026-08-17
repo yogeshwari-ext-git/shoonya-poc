@@ -1,0 +1,35 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:orders-node-001",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-08-17T10:00:00Z",
+    "component": {
+      "type": "application",
+      "name": "orders-node",
+      "version": "2.1.0",
+      "purl": "pkg:npm/orders-node@2.1.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "express",
+      "version": "4.18.2",
+      "purl": "pkg:npm/express@4.18.2"
+    },
+    {
+      "type": "library",
+      "name": "lodash",
+      "version": "4.17.21",
+      "purl": "pkg:npm/lodash@4.17.21"
+    },
+    {
+      "type": "library",
+      "name": "axios",
+      "version": "1.6.0",
+      "purl": "pkg:npm/axios@1.6.0"
+    }
+  ]
+}
