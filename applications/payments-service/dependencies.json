@@ -1,0 +1,17 @@
+{
+  "application": "payments-service",
+  "version": "1.0.0",
+  "language": "generic",
+  "dependencies": [
+    {
+      "name": "example-library-a",
+      "version": "1.2.3",
+      "ecosystem": "generic"
+    },
+    {
+      "name": "example-library-b",
+      "version": "4.5.6",
+      "ecosystem": "generic"
+    }
+  ]
+}
